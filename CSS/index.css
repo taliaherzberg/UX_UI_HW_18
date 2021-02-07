@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 1px;
+    background-color: white;
+}
+.logo {
+    float: left;
+    margin-left: 94px;
+    margin-top: 23px;
+    height: 143px;
+    margin-bottom: 25px;
+}
+ul {
+    margin-right: 62px;
+    float: right;
+
+}
+.inline-block {
+    display: inline-block;
+    padding: 31px;
+    background-color: white;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom:102px; 
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.active {
+    text-decoration: underline #480080 4px;
+    text-underline-offset: 5px;
+    text-underline-position: under;
+}
+.inactive:hover {
+    cursor: pointer;
+    color: #480080;
+}
+.HeroText {
+    margin-top: 296px;
+    font-size: 48px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    margin-left: 100px;
+}
+.Paragraph {
+    position: absolute;
+    top: 378px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    margin-right: 100px;
+}
+.CaseStudiesThumbnail {
+    display: flex;
+    justify-content: center;
+}
+.Row1 {
+    margin-top: 223px;
+}
+.Box1 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/PACT.png);
+    margin: 15px;
+}
+.Box1:hover {
+    background-image: url(../images/PACT-Hover.png);
+}
+.Box2 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/CSA.png);
+    margin: 15px;
+}
+.Box2:hover {
+    background-image: url(../images/CSA-Hover.png);
+}
+.Box3 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/SIP.png);
+    margin: 15px;
+}
+.Box3:hover {
+    background-image: url(../images/SIP-Hover.png);
+}
+.Box4 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/Sonder.png);
+    margin: 15px;
+}
+.Box4:hover {
+    background-image: url(../images/Sonder-Hover.png);
+}
+
+.footer {
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color: #200039;
+   width: 100%;
+   color: white;
+   font-size: 24px;
+   font-family: 'Roboto Mono', monospace;
+}
+.footerLeft {
+    float: left;
+    margin-left: 77px;
+}
+
+.footerRight {
+    float: right;
+    margin-right: 77px;
+    cursor: pointer;
+    text-align: right;
+}
