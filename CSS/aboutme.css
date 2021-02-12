@@ -53,16 +53,20 @@
         font-size: 14px;
     }
     section.Content {
+        grid-template-columns: 100%;
         grid-template-areas:
         "Photo" 
         "textAbout";
-        align-content: center;
     }
     div.Photo {
         grid-area: Photo;
+        align-items: center;
     }
     div.textAbout {
         grid-area: textAbout;
+        width: 370px;
+        margin-left: auto;
+        margin-right: auto;
     }
     }
 
