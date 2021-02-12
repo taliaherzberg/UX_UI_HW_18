@@ -341,6 +341,7 @@ ul {
 }
 
 .footer {
+    margin-top: 100px;
    height: 100px;
    line-height: 100px;
    text-align: center;
@@ -365,4 +366,12 @@ ul {
     cursor: pointer;
     text-align: right;
     margin-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover {
+    color: #480080;
 }
