@@ -10,7 +10,7 @@
         margin-right: 30px;
     }
     div.Photo {
-        background-image: url(../images/Temp\ Photo\ Smaller.png);
+        background-image: url(../images/portfolio-photo-small.png);
         width: 370px;
         height: 681px;
     }
@@ -67,6 +67,7 @@
         width: 370px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 50px;
     }
     }
 
@@ -155,9 +156,9 @@ ul {
 
 .Photo {
     grid-area: Photo;
-    background-image: url(../images/Temp\ Photo.png);
-    width: 524px;
-    height: 656px;
+    background-image: url(../images/Portfolio_Photo.png);
+    width: 442px;
+    height: 664px;
     margin-left: auto;
     margin-right: auto;
 }
