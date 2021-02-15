@@ -31,7 +31,7 @@
     div.logo {
         display: none;
     }
-    div.logoMedium {
+    a.logoMedium {
         margin-left: 50px;
         height: 90px;
         width: 90px;
@@ -75,7 +75,7 @@
     div.logoMedium {
         display: none;
     }
-    div.logoSmall {
+    a.logoSmall {
         margin-left: 20px;
         height: 70px;
         width: 70px;
@@ -117,7 +117,6 @@ nav {
     margin-top: 23px;
     height: 143px;
     margin-bottom: 25px;
-    cursor: pointer;
 }
 ul {
     margin-right: 62px;
